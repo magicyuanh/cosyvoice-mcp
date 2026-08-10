@@ -1,5 +1,10 @@
 # CosyVoice3 MCP Server
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![MCP](https://img.shields.io/badge/MCP-Server-black.svg)](https://modelcontextprotocol.io)
+[![CosyVoice3](https://img.shields.io/badge/CosyVoice-3-red.svg)](https://github.com/FunAudioLLM/CosyVoice)
+
 将 [Fun-CosyVoice3-0.5B-2512](https://github.com/fengin/Fun-CosyVoice3-0.5B-2512-Deploy) 本地 TTS 服务封装为 **MCP (Model Context Protocol) stdio server**。单文件、纯 Python 标准库实现，零第三方依赖，可接入 Claude Desktop / WorkBuddy 等任意支持 MCP 的客户端。
 
 支持三个工具：
@@ -31,7 +36,7 @@
 ## 安装
 
 ```bash
-git clone https://github.com/<你的用户名>/cosyvoice-mcp.git
+git clone https://github.com/magicyuanh/cosyvoice-mcp.git
 cd cosyvoice-mcp
 # 无需 pip install —— 零依赖
 ```
