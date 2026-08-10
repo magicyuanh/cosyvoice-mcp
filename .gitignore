@@ -1,0 +1,18 @@
+# 可再生成的产物不入库
+output/
+venv/
+models/
+asset/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
